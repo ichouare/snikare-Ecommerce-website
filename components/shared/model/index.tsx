@@ -30,7 +30,7 @@ export default function Model() {
     if (isFisrtTime)
         return null
 
-    if (!open && !isFisrtTime)
+    if (!isOpen && !isFisrtTime)
         return <div className="w-full md:w-[851px] scaleUp  bg-red-500  min-h-[622px] md:min-h-[520px]  flex flex-col-reverse md:flex-row asbolute">
             <div className="min-w-[50%] max-w-[50%] min-h-[393px] grid grid-flow-row place-content-center px-10 ">
                 <h2 className="font-normal  text-3xl leading-[50px]  ">A Gift  For You</h2>

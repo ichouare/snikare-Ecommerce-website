@@ -1,6 +1,4 @@
-import React from 'react'
 import { AccordionFooter } from './accordin'
-import AboutUs from './aboutUs'
 import Media from './media'
 
 const Footer = () => {
